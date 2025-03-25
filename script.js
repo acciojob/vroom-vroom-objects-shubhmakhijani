@@ -6,7 +6,7 @@ function Car(make, model) {
 
 // Adding method to Car prototype
 Car.prototype.getMakeModel = function () {
-    return ${this.make} ${this.model};
+    return `${this.make} ${this.model}`;
 };
 
 // SportsCar Constructor Function (inherits from Car)
